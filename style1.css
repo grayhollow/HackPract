@@ -3,3 +3,29 @@
 --c4: #DAE7EE;
 
 }
+
+#mainhead{
+    text-align: center;
+    margin: 40px;
+}
+
+#contcont{
+    margin: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#leftcont{
+    display: flex;
+}
+
+#rightcont{
+    
+}
+
+#secondary-text{
+    margin: 30px;
+    text-align: center;
+}
