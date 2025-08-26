@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+     font-size: x-large;
+ }
+ body{
+ 
+ }
+ :root{
+ 
+     --c1 : #C6E5F4;
+     --c2 : #9DD0E8;
+ 
+ }
+ .navbar{
+ 
+     background-color: var(--c1);
+     padding: 25px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+ 
+ 
+ 
+ }
+ .logo{
+ 
+ }
+ .logo h1{
+ 
+     font-size: x-large;
+ 
+ }
+ .right-side{
+ 
+     display: flex;
+     margin-left: 30px ;
+ 
+ }
+ .right-side button{
+     background-color: var(--c1);
+     border: none;
+     
+ }
+ .right-side a{
+ 
+     text-decoration: none;
+     display: flex;
+     margin-right: 25px;
+     margin-left: 25px;
+ 
+ }
+ 
+ 
+ 
