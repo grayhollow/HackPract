@@ -1,14 +1,16 @@
 *{
     margin: 0%;
-     font-size: x-large;
+    
  }
  body{
  
+    
+
  }
  :root{
  
      --c1 : #C6E5F4;
-     --c2 : #9DD0E8;
+     --c2 : #72ABC6;
  
  }
  .navbar{
@@ -25,14 +27,17 @@
  }
  .logo{
  
+    font-weight: 200%;
+
  }
  .logo h1{
  
-     font-size: x-large;
+     font-size: 50px;
  
  }
  .right-side{
  
+   
      display: flex;
      margin-left: 30px ;
  
@@ -40,7 +45,7 @@
  .right-side button{
      background-color: var(--c1);
      border: none;
-     
+      font-size: 30px;
  }
  .right-side a{
  
@@ -49,6 +54,9 @@
      margin-right: 25px;
      margin-left: 25px;
  
+ }
+ .home-page{
+
  }
  
  
