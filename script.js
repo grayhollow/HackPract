@@ -1,6 +1,5 @@
-let ordernum(){
-    document.getElementById("submitpro").value
-}
+let ordenrum = document.getElementById("submitpro").value
+
 
 console.log(ordernum);
 
