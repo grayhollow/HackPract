@@ -18,10 +18,28 @@
 
 }
 
-.gap1{
 
-gap: 30px;
+.EX{
 
+height: 170px;
+background-color:var(--secondary) ;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
 
 }
 
+.EX h1{
+
+    color: var(--lettermid);
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+
+.EX img{
+
+    width: 7%;
+
+}
