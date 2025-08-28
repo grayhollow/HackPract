@@ -94,3 +94,7 @@ input{
   .comainright{
     padding: 20px;
   }
+
+  .combod{
+    background-color: var(--primary);
+  }
