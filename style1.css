@@ -11,6 +11,14 @@
 background-color: var(--secondary);
 
 }
+.mhead{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    padding: 25px;
+    color: var(--letterdark)
+}
 
 .logo{
 
@@ -42,6 +50,7 @@ height: 170px;
 background-color:var(--secondary) ;
 display: flex;
 flex-direction: column;
+flex-wrap: wrap;
 align-items: center;
 justify-content: flex-start;
 
@@ -59,4 +68,116 @@ justify-content: flex-start;
 
     width: 7%;
 
+}
+.cards{
+
+margin-top: 50px;
+margin-bottom: 100px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.card{
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 50px;
+width: 400px;
+height: 500px;
+
+}
+.card img{
+
+height: 500px;
+
+}
+@media (max-width : 1500px) {
+
+    .bodyc{
+
+        background-color: var(--secondary);
+        
+        }
+        
+        .logo{
+        
+            font-size: 30px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        
+        }
+        
+        .Commission-Here{
+        
+            background-color: var(--primary);
+            color: var(--letterdark);
+            height: 80px;
+            width: 350px;
+            border: none;
+            border-radius: 35px;
+            font-size: 30px;
+        
+        }
+        
+        
+        .EX{
+        
+        height: 170px;
+        background-color:var(--secondary) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+        }
+        
+        .EX h1{
+        
+            color: var(--lettermid);
+            margin-top: 40px;
+            font-size: 20px;
+        
+        }
+        
+        .EX img{
+        
+            width: 7%;
+        
+        }
+        .cards{
+        
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        }
+        .card{
+        
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+        width: 400px;
+        height: 500px;
+        
+
+        
+        }
+        .card img{
+        
+        height: 500px;
+        
+        }
+    
 }
