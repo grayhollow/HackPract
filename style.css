@@ -51,6 +51,11 @@ input{
     height: 50px;
 }
 
+#cmm{
+    height: 50px;
+    width: 400px;
+}
+
 .submitb{
     margin: 100px;
     background-color: var(--primary);
@@ -84,4 +89,8 @@ input{
   .dropdown:hover .ddcontent {
     display: block;
     transition: all 0.3s ease-in-out;
+  }
+
+  .comainright{
+    padding: 20px;
   }
