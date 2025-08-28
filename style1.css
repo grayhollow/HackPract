@@ -6,6 +6,17 @@
     --lettermid: #5E5E5E;
 }
 
+.logo{
+
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
 .Commission-Here{
 
     background-color: var(--primary);
