@@ -5,9 +5,7 @@
     --letterlight: #FFFFFF;
     --lettermid: #5E5E5E;
     --textback: #DAE7EE;
-
 }
-
 .mhead{
     font-size: 60px;
     display: flex;
@@ -56,8 +54,18 @@ input{
     width: 400px;
 }
 
+.conb{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
 .submitb{
     margin: 100px;
+    
     background-color: var(--primary);
     border-radius: 10px;
     width: 200px;
@@ -65,13 +73,14 @@ input{
     margin: 0 auto;
 }
 
+
 .dropdown {
     position: relative;
     display: flex;
     justify-content: center;
     padding: 5px;
   }
-  
+
   .ddcontent {
     display: none;
     position: absolute;
@@ -81,7 +90,7 @@ input{
     padding: 12px 16px;
     z-index: 1;
   }
-  
+
 .ddbutton{
     transform: scale;
 }
