@@ -18,7 +18,7 @@
 }
 
 .mhead{
-    font-size: 60px;
+    font-size: 48px;
     display: flex;
     justify-content: center;
     margin-top: 75px;
@@ -111,6 +111,9 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
   }
 
 .ddbutton{
@@ -138,3 +141,13 @@
   .comcon *{
     margin: 10px;
   }
+
+  .submitpro{
+    margin: 50px;
+    background-color: var(--primary);
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+}
