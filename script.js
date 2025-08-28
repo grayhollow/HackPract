@@ -1,4 +1,4 @@
-let ordenrum(){
+let ordernum(){
     document.getElementById("submitpro").value
 }
 
