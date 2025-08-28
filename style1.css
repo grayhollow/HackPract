@@ -9,9 +9,19 @@
 .Commission-Here{
 
     background-color: var(--primary);
-    
+    color: var(--letterdark);
+    height: 80px;
+    width: 350px;
+    border: none;
+    border-radius: 35px;
+    font-size: 30px;
 
+}
 
+.gap1{
+
+gap: 30px;
 
 
 }
+
