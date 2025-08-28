@@ -5,3 +5,8 @@
     --letterlight: #FFFFFF;
     --lettermid: #5E5E5E;
 }
+
+.mainleft{
+    display: flex;
+   justify-content: center;
+}
