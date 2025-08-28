@@ -6,6 +6,12 @@
     --lettermid: #5E5E5E;
 }
 
+.bodyc{
+
+background-color: var(--secondary);
+
+}
+
 .logo{
 
     font-size: 30px;
