@@ -4,4 +4,58 @@
     --letterdark: #3F6678;
     --letterlight: #FFFFFF;
     --lettermid: #5E5E5E;
+    --textback: #DAE7EE;
+
+}
+
+.mhead{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    padding: 25px;
+    color: var(--letterdark)
+}
+
+.secondt{
+    display: flex;
+    justify-content: center;
+    color: var(--lettermid);
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+   width: 900px;
+   padding: 50px;
+   margin: auto;
+}
+
+.mainleft{
+    float: left;
+    width: 50%;
+}
+
+.mainright{
+    float: right;
+    width: 50%;
+}
+
+input{
+    background-color: var(--textback);
+    border-radius: 10px;
+}
+
+#mm{
+    height: 50px;
+}
+
+.submitb{
+    margin: 100px;
+    background-color: var(--primary);
+    border-radius: 10px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
 }
